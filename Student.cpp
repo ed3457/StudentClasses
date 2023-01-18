@@ -44,3 +44,26 @@ void Student::printStudentInfo()
 	cout << "Student Major: " << getMajor() << endl;
 
 }
+
+Student::Student()
+{
+	/*name = "not set yet";
+	major = "not set";
+	id = "***********";*/
+
+	// better way: 
+
+	setName("not set yet");
+	setMajor("not set");
+	setID("***********"); 
+
+}
+
+Student::Student(string i, string n, string m)
+{
+
+	setName(n);
+	setMajor(m);
+	setID(i);
+}
+

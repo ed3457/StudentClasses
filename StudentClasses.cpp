@@ -20,6 +20,10 @@ int main()
 
     stud1.printStudentInfo();
 
+    Student stud2("1234", "Jenna", "Computer Science");
+
+    stud2.printStudentInfo();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -32,5 +32,10 @@ public:
 
 	void printStudentInfo();
 
+	// Constructors 
+
+	Student();// default constructor 
+	Student(string i, string n, string m);// overloaded constructor 
+
 };
 
