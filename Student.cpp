@@ -14,3 +14,25 @@ string Student::getName()
 
 
 }
+
+void Student::setID(string ID)
+{
+
+	id = ID; 
+}
+
+string Student::getID()
+{
+	return id;
+}
+
+void Student::setMajor(string m)
+{
+
+	major = m;
+}
+
+string Student::getMajor()
+{
+	return major;
+}

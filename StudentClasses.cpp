@@ -2,10 +2,22 @@
 //
 
 #include <iostream>
+#include "Student.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
+
+    Student stud1; 
+
+    stud1.setID("1234556");
+
+    stud1.setMajor("Math");
+
+    stud1.setName("David");
+
+    cout << stud1.getMajor();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
