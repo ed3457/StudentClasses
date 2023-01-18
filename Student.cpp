@@ -36,3 +36,11 @@ string Student::getMajor()
 {
 	return major;
 }
+
+void Student::printStudentInfo()
+{
+	cout << "Student Name: " << getName() << "\n";
+	cout << "Student ID: " << getID() << endl;
+	cout << "Student Major: " << getMajor() << endl;
+
+}

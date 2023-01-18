@@ -10,13 +10,15 @@ int main()
 
     Student stud1; 
 
-    stud1.setID("1234556");
+   /* stud1.setID("1234556");
 
     stud1.setMajor("Math");
 
-    stud1.setName("David");
+    stud1.setName("David");*/
 
-    cout << stud1.getMajor();
+   // cout << stud1.getMajor();
+
+    stud1.printStudentInfo();
 
 }
 
